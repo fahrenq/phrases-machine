@@ -5,7 +5,7 @@ function setCookie() {
 }
 
 function displayPhrase(id, text, count) {
-  $('#display_phrase').text(id + ". " text + count + " remaining.");
+  $('#display_phrase').text(id + ". " + text + count + " remaining.");
 }
 
 function updateCookie(id) {
